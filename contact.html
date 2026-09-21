@@ -1,33 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - BiteBox</title>
 </head>
+
 <body>
     <header>
         <!-- Restaurant Name -->
-    <h1>Contact Us Page</h1>
+        <h1>Contact Us Page</h1>
 
-    <p>
-        <a href="index.html">Home</a>|
+        <p>
+            <a href="index.html">Home</a>|
 
-        <a href="menu.html">Menu</a>|
+            <a href="menu.html">Menu</a>|
 
-        <a href="contact.html">Contact</a>|
+            <a href="contact.html">Contact</a>|
 
-        <a href="about.html">About us</a>
+            <a href="about.html">About us</a>
 
-    </p>
+        </p>
     </header>
 
-  <main>
-    <section>
-    <h2>Visit Our Website</h2>
-    <a href="https://www.google.com" target="_self">Visit Google</a>
-    </section>
-  </main>
-    
-</body> 
+    <main>
+        <!-- <section>
+            <h2>Visit Our Website</h2>
+            <a href="https://www.google.com" target="_self">Visit Google</a>
+        </section> -->
+
+        <hr>
+
+        <h2> Customer Registration & Order form</h2>
+
+        <form>
+            <h3> Customer Information</h3>
+            <label for="Fullname">Fullname</label><br>
+            <input type="text" name="Fullname" id="Fullname" placeholder="Enter the Full name">
+            <br><br>
+
+            <label for="Email">Email</label><br>
+            <input type="email" name="Email" id="Email" placeholder="Enter the Email">
+            <br><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder="Enter the Password">
+            <br><br>
+
+            <label for="phone">Phone No</label><br>
+            <input type="tel" name="phone" id="phone" placeholder="Enter the Phone number">
+            <br><br>
+
+
+            <h3>Order Information</h3>
+            <label for="quantity">Quantity</label><br>
+            <input type="number" name="quantity" id="quantity" placeholder="Enter Quantity">
+
+            <br><br>
+            <label for="deliveryDate">Preferred Delivery Date</label><br>
+            <input type="date" name="deliveryDate" id="deliveryDate"><br><br>
+
+            <label for="food"> Select Food Item </label>
+            <br>
+            <select name="food" id="food">
+
+                <option value="pizza">Veg pizza</option>
+                <option value="burger">Cheese Burger</option>
+                <option value="sandwich">Grill Sawndwich</option>
+                <option value="brownie">Chocolate Bronie</option>
+                <option value="pasta">White Sauce Pasta</option>
+            </select><br><br>
+
+            <h3> Payment Method</h3><br>
+
+
+            <input type="radio" name="payment" id="cash">
+            <label for="cash">Cash</label><br>
+
+            <input type="radio" name="payment" id="card">
+            <label for="card">Card</label><br>
+
+            <input type="radio" name="payment" id="upi">
+            <label for="upi">UPI</label><br>
+
+            <h3>Extras</h3>
+
+            <input type="checkbox" name="extras" id="drinks">
+            <label for="drink">Cold drink</label>
+            <br>
+
+            <input type="checkbox" name="extras" id="cheese">
+            <label for="cheese">Extra cheese</label>
+            <br>
+
+            <input type="checkbox" name="extras" id="desert">
+            <label for="desert">Desert</label>
+            <br>
+
+
+            <h3>Delivery Instructions</h3>
+            <label for="address">Delivery address </label><br>
+            <textarea name="address" id="address" cols="40" rows="5"></textarea>
+            <br><br>
+
+            <input type="submit" value="place order">
+            <input type="reset" value="Clear form">
+            <br><br>
+
+
+
+        </form>
+
+
+    </main>
+
+</body>
+
 </html>
