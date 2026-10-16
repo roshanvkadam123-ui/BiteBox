@@ -434,15 +434,15 @@ nav a:hover {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 14px;
+            /* font-size: 14px; */
             padding: 0 12px 10px;
-        }   
+        }
 
         .ratings {
             color: #f5b301;
             font-size: 18px;
             font-weight: 700;
-            margin: 0 10px; 
+            margin: 0;
         }
 
         .ratings small {
@@ -454,7 +454,7 @@ nav a:hover {
             color: #f44336;
             font-size: 20px;
             font-weight: 700;
-            margin: 0 10px;
+            margin: 0;
         }
 
     }
@@ -462,4 +462,152 @@ nav a:hover {
     article:hover {
         box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
     }
+}
+
+#offer {
+    width: 90%;
+    height: 250px;
+    margin: 70px auto;
+    padding: 28px 55px;
+    box-sizing: border-box;
+    background-image: url("../assets/images/offer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.offer-content {
+    width: 38%;
+
+
+    h2 {
+        font-size: 34px;
+        font-weight: 800;
+        color: #ffffff;
+        line-height: 1.15;
+        margin-bottom: 15px;
+
+        span {
+            background: linear-gradient(180deg, #ffffff 0%, #fff9d8 25%, #ffe47a 55%, #ffc107 80%, #ff9800 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+
+    p {
+        font-size: 18px;
+        color: #ffffff;
+        line-height: 1.5;
+        margin-bottom: 10px;
+
+        strong {
+            color: #ffb400;
+        }
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 12px 32px;
+        background: #ff3b30;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        border-radius: 20px;
+        width: 200px;
+        text-align: center;
+    }
+
+    a:hover {
+        background-color: #5b0202;
+    }
+}
+
+#reviews {
+    background-color: #ffffff;
+    padding: 60px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 42px;
+        font-weight: 700;
+        color: #222222;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    h2::after {
+        content: "";
+        display: block;
+        width: 70px;
+        height: 3px;
+        background: #ff6b00;
+        margin: 10px auto 0;
+    }
+
+    article {
+        width: 330px;
+        background: #ffffff;
+        padding: 22px 20px 18px;
+        border-radius: 12px;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+        position: relative;
+
+        .customer {
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 700;
+            color: #222222;
+            margin: 0 0 4px;
+        }
+
+        p span {
+            color: #f5b301;
+            font-size: 16px;
+        }
+    }
+
+    article::before {
+        content: "❝";
+        position: absolute;
+        top: -10px;
+        left: 18px;
+        font-size: 42px;
+        color: #ff3b30;
+        background: transparent;
+        line-height: 1;
+        padding: 0 4px;
+    }
+
+    article>p {
+        font-size: 15px;
+        color: #444444;
+        line-height: 22px;
+        margin: 0 0 14px;
+    }
+
+    article:hover {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    }
+
 }
