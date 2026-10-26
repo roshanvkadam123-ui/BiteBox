@@ -1,173 +1,339 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart - Bitebox</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- Restaurant Name -->
-        <img src="./assets/images/bitebox logo.png" alt="BiteBox logo"  class="logo">
+      <!-- Restaurant Name -->
+      <img
+        src="./assets/images/bitebox logo.png"
+        alt="BiteBox logo"
+        class="logo"
+      />
 
-        <nav>
-            <a href="index.html">Home</a>|
+      <nav>
+        <a href="index.html">Home</a>|
 
-            <a href="menu.html">Menu</a>|
+        <a href="menu.html">Menu</a>|
 
-            <a href="contact.html">Contact</a>|
+        <a href="contact.html">Contact</a>|
 
-            <a href="about.html">About us</a>|
+        <a href="about.html">About us</a>|
 
-            <a href="cart.html">
-                <img src="./assets/icons/cart.png" alt="Cart Icon" width="25" 
-                height="25">
-            </a>
-
-        </nav>
+        <a href="cart.html">
+          <img
+            src="./assets/icons/cart.png"
+            alt="Cart Icon"
+            width="25"
+            height="25"
+          />
+        </a>
+      </nav>
     </header>
 
     <section id="cart-hero">
-
-        
-            <h1>Your Shopping Cart</h1>
-            <div class="divider">
-                <hr>
-                <img src="./assets/images/fork-and-spoon.png" alt="Fork and Spoon">
-                <hr>
-            </div>
-            <p> Review your selected food items before
-                proceeding to checkout.
-            </p>
-            <br>
-            <p>Update quantities, remove items, and confirm
-                your order with ease.
-            </p>
-        
-
+      <h1>Your Shopping Cart</h1>
+      <div class="divider">
+        <hr />
+        <img src="./assets/images/fork-and-spoon.png" alt="Fork and Spoon" />
+        <hr />
+      </div>
+      <p>Review your selected food items before proceeding to checkout.</p>
+      <br />
+      <p>Update quantities, remove items, and confirm your order with ease.</p>
     </section>
 
-    <section id="shopping-cart">
+    <div id="cart-details">
+      <section id="shopping-cart">
         <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+              <th>Action</th>
+            </tr>
+          </thead>
 
-            <thead>
-                <tr>
-                    <th>Item</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
-                    <th>Total</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
+          <tbody>
+            <!-- Item 1 -->
 
-            <tbody>
+            <tr>
+              <td>
+                <div class="cart-item">
+                  <img
+                    src="assets/images/Margherita Pizza.png"
+                    alt="Margherita Pizza"
+                    width="80"
+                  />
 
-                <!-- Item 1 -->
-                <tr>
-                    <td>
-                        <img src="./assets/images/Margherita Pizza.png" alt="Margherita Pizza" width="80">
-                        <h3>Margherita Pizza</h3>
-                        <p>Classic delight with fresh cheese & basil.</p>
-                    </td>
+                  <div>
+                    <h3>Margherita Pizza</h3>
 
-                    <td>₹249</td>
+                    <p>Classic delight with fresh cheese & basil.</p>
+                  </div>
+                </div>
+              </td>
 
-                    <td>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </td>
-                    <td>₹249</td>
-                    <td>
-                        <a href="#"> <img src="./assets/icons/delete.jpg" alt="delete" width="25"> </a>
-                    </td>
-                </tr>
+              <td>₹249</td>
+              <td>
+                <div class="quantity-box">
+                  <button>-</button>
 
-                <!-- Item 2 -->
+                  <span> 1 </span>
 
-                <tr>
-                    <td>
-                        <img src="./assets/images/cheese burger.png" alt="cheese burger" width="80">
-                        <h3>Cheese Burger</h3>
-                        <p>Juicy grilled burger with cheese & veggies.</p>
-                    </td>
-                    <td>₹189</td>
-                    <td>
-                        <button>-</button>
-                        <span>2</span>
-                        <button>+</button>
-                    </td>
-                    <td>₹378</td>
-                    <td>
-                        <a href="#"> <img src="./assets/icons/delete.jpg" alt="delete" width="25"></a>
-                    </td>
-                </tr>
+                  <button>+</button>
+                </div>
+              </td>
 
-                <!-- Item 3 -->
+              <td>₹249</td>
 
-                <tr>
-                    <td>
-                        <img src="./assets/images/cremy alfrdo pasta.png" alt="Creamy Pasta" width="80">
-                        <h3>Creamy Pasta</h3>
-                        <p>Delicious white sauce pasta with herbs.</p>
-                    </td>
-                    <td>₹199</td>
-                    <td>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </td>
-                    <td>₹199</td>
-                    <td>
-                        <a href="#"> <img src="./assets/icons/delete.jpg" alt="delete" width="25"> </a>
-                    </td>
-                </tr>
+              <td>
+                <a href="#">
+                  <img src="assets/icons/delete.jpg" alt="Delete" width="25" />
+                </a>
+              </td>
+            </tr>
 
-            </tbody>
+            <!-- Item 2 -->
 
+            <tr>
+              <td>
+                <div class="cart-item">
+                  <img
+                    src="assets/images/cheese burger.png "
+                    alt="cheese burger"
+                    width="80"
+                  />
+
+                  <div>
+                    <h3>Cheese Burger</h3>
+
+                    <p>Juicy grilled burger with cheese & veggies.</p>
+                  </div>
+                </div>
+              </td>
+
+              <td>₹189</td>
+              <td>
+                <div class="quantity-box">
+                  <button>-</button>
+
+                  <span> 2 </span>
+
+                  <button>+</button>
+                </div>
+              </td>
+
+              <td>₹378</td>
+
+              <td>
+                <a href="#">
+                  <img src="assets/icons/delete.jpg" alt="Delete" width="25" />
+                </a>
+              </td>
+            </tr>
+
+            <!-- Item 3 -->
+
+            <tr>
+              <td>
+                <div class="cart-item">
+                  <img
+                    src="./assets/images/cremy alfrdo pasta.png"
+                    alt="Creamy Pasta"
+                    width="80"
+                  />
+
+                  <div>
+                    <h3>Creamy Pasta</h3>
+
+                    <p>Delicious white sauce pasta with herbs.</p>
+                  </div>
+                </div>
+              </td>
+
+              <td>₹199</td>
+              <td>
+                <div class="quantity-box">
+                  <button>-</button>
+
+                  <span> 1 </span>
+
+                  <button>+</button>
+                </div>
+              </td>
+
+              <td>₹199</td>
+
+              <td>
+                <a href="#">
+                  <img src="assets/icons/delete.jpg" alt="Delete" width="25" />
+                </a>
+              </td>
+            </tr>
+          </tbody>
         </table>
+      </section>
 
-    </section>
-
-    <aside id="order-summary">
+      <aside id="order-summary">
         <h2>Order Summary</h2>
 
-        <p> <span>Subtotal (3 Items)</span> <span>₹826.00</span> </p>
+        <p><span>Subtotal (3 Items)</span> <span>₹826.00</span></p>
 
-        <p> <span>Delivery Charges</span> <span>₹40.00</span> </p>
+        <p><span>Delivery Charges</span> <span>₹40.00</span></p>
 
-        <p> <span>Packaging Charges</span> <span>₹20.00</span> </p>
+        <p><span>Packaging Charges</span> <span>₹20.00</span></p>
 
-        <hr>
-        <h3> <span>Total Amount</span> <span>₹886.00</span> </h3>
+        <hr />
+        <h3><span>Total Amount</span> <span>₹886.00</span></h3>
 
-        <button type="button"> Proceed to Checkout </button>
-        <p> <img src="./assets/icons/shield1.png" alt="secure payment" width="18" height="18">
-            Secure Checkout </p>
-
-
-    </aside>
+        <button type="button">Proceed to Checkout</button>
+        <p>
+          <img
+            src="./assets/icons/shield1.png"
+            alt="secure payment"
+            width="18"
+            height="18"
+          />
+          Secure Checkout
+        </p>
+      </aside>
+    </div>
 
     <!-- Cart Action Buttons -->
 
     <section id="cart-actions">
-
-        <a href="menu.html">
-        <img src="./assets/icons/left arrow.jpg" alt="continue shopping" width="18" height="18">
+      <a href="menu.html">
+        <img
+          src="./assets/icons/left arrow.jpg"
+          alt="continue shopping"
+          width="18"
+          height="18"
+        />
         Continue Shopping
-    </a>
- 
-    <button type="button">
-      
-        <img src="./assets/icons/delete.jpg" alt="clear cart" width="18" height="18">  Clear Cart
-      
-    </button>
+      </a>
 
+      <button type="button">
+        <img
+          src="./assets/icons/delete.jpg"
+          alt="clear cart"
+          width="18"
+          height="18"
+        />
+        Clear Cart
+      </button>
     </section>
 
-</body>
+    <footer>
+      <div class="footer-container">
+      <!-- Footer Logo Section -->
+      <section>
+        <img
+          src="./assets/images/logo.png"
+          alt="BiteBox Logo"
+          width="180"
+        />
+        <p>Delicious food delivered to your doorstep. Fresh, fast and tasty!</p>
+       <div class="footer-socials">
+        <a href="#">
+          <img
+            src="./assets/images/facebbok.png"
+            alt="Facebook"
+            width="35"
+            height="35"
+          />
+        </a>
 
+        <a href="#">
+          <img
+            src="./assets/images/instagram.png"
+            alt="Instagram"
+            width="35"
+            height="35"
+          />
+        </a>
+
+        <a href="#">
+          <img
+            src="./assets/images/twitter.png"
+            alt="Twitter"
+            width="35"
+            height="35"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="./assets/images/youtube.png"
+            alt="YouTube"
+            width="35"
+            height="35"
+          />
+        </a>
+       </div>
+     </section>
+
+      <hr />
+
+      <!-- Quick Links -->
+
+      <section>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html"></a>Cart</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <!-- Customer Service -->
+      <section>
+        <h3>Customer Service</h3>
+        <ul>
+          <li>Track Order</li>
+          <li>FAQs</li>
+          <li>Shipping Policy</li>
+          <li>Return Policy</li>
+          <li>Terms & Conditions</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <!-- Contact Information -->
+      <section id="contact">
+        <h3>Contact Us</h3>
+        <p>📞 +91 8208573282</p>
+        <p>✉ support@bitebox.com</p>
+        <p>📍 Narhe,Pune,Maharatra,India</p>
+      </section>
+
+      <hr />
+
+      <!-- Payment Methods -->
+      <section>
+        <h3>Payment Methods</h3>
+        <div class="payment-icons">
+        <img src="./assets/images/visa.png" alt="Visa" width="60" />
+        <img src="./assets/images/mastercard.png" alt="MasterCard" width="60" />
+        <img src="./assets/images/Upi.jpg" alt="UPI" width="60" />
+        <img src="./assets/images/Paytm.png" alt="Paytm" width="60" />
+        </div>
+      </section>
+      </div>
+
+      <hr />
+      <p>© 2026 BiteBox. All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
