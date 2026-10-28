@@ -2680,6 +2680,675 @@ footer>p {
     }
 
 
+    /*==========================================
+        Contact hero section
+===========================================*/
+
+    #contact-hero {
+        height: 300px;
+        padding: 50px 80px;
+        background-position: left;
+    }
+
+    #contact-hero .hero-content {
+        width: 500px;
+    }
+
+    #contact-hero h2 {
+        font-size: 50px;
+    }
+
+    #contact-hero h3 {
+        font-size: 24px;
+    }
+
+    #contact-hero p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+
+    /*==========================================
+        Contact-info section
+===========================================*/
+
+
+
+    #contact-info {
+        padding: 60px 30px;
+        text-align: center;
+    }
+
+    #contact-info .section-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact-info .section-title h4 {
+        font-size: 22px;
+    }
+
+    #contact-info .section-title h2 {
+        font-size: 34px;
+    }
+
+    #contact-info .contact-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        width: 750px;
+        max-width: 100%;
+        margin: 40px auto 0;
+    }
+
+    #contact-info .contact-container article {
+        width: auto;
+        box-sizing: border-box;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    #contact-info .contact-container article>img {
+        width: 70px;
+        height: 70px;
+    }
+
+    #contact-info .contact-container article h3 {
+        font-size: 21px;
+        margin: 12px 0 10px;
+    }
+
+    #contact-info .contact-container article p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    #contact-info .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    /*==========================================
+        Business hrs - event - contact form
+===========================================*/
+
+    #contact-details {
+        padding: 50px 35px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        align-items: stretch;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .left-column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .business-card {
+        padding: 25px;
+        flex: 1;
+        box-sizing: border-box;
+    }
+
+    .business-card h2,
+    .right-column h2 {
+        font-size: 25px;
+    }
+
+    .business-content {
+        display: block;
+    }
+
+    .business-content>img {
+        display: none;
+    }
+
+    .business-content table {
+        width: 100%;
+        margin: 15px 0 0;
+        font-size: 14px;
+    }
+
+    .business-content td {
+        padding: 10px 0;
+    }
+
+    .business-content td:first-child {
+        text-align: left;
+    }
+
+    .business-content td:last-child {
+        text-align: right;
+    }
+
+    .event-card {
+        padding: 25px;
+        margin-top: 0;
+        flex: 1;
+        box-sizing: border-box;
+    }
+
+    .event-card img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .event-card h3 {
+        font-size: 18px;
+    }
+
+    .event-card p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .right-column {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .right-column form {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-row {
+        display: flex;
+        gap: 15px;
+    }
+
+    .form-row input {
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .right-column textarea {
+        width: 100%;
+        box-sizing: border-box;
+        flex: 1;
+        min-height: 140px;
+    }
+
+    .contact-form-button {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    /*==========================================
+        Cart hero section
+===========================================*/
+
+
+    #cart-hero {
+        padding: 60px 40px;
+        text-align: center;
+    }
+
+    #cart-hero h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    #cart-hero .divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #cart-hero .divider hr {
+        width: 80px;
+    }
+
+    #cart-hero .divider img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #cart-hero p {
+        max-width: 700px;
+        margin: 20px auto 0;
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+
+
+
+    #cart-details {
+        width: 92%;
+        margin: 40px auto 60px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        position: static;
+        padding: 0;
+    }
+
+    /* Shopping Cart */
+    #shopping-cart {
+        width: 100%;
+    }
+
+    /* Order Summary */
+    #order-summary {
+        width: 100%;
+
+        position: static;
+
+        height: auto;
+        min-height: 500px;
+
+        margin: 0;
+
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    /* Hide action buttons on tablet */
+    #cart-actions {
+        display: none;
+    }
+
+
+    /* =========================================================
+
+   ========================================================= */
+
+
+    /* ==========================================
+       FOOTER
+    ========================================== */
+
+    footer {
+        width: 100%;
+        margin-top: 50px;
+
+        background: #111111;
+        color: #ffffff;
+    }
+
+
+    /* ==========================================
+       FOOTER CONTAINER
+    ========================================== */
+
+    .footer-container {
+        width: 100%;
+        margin: 0;
+
+        padding: 45px 5.5% 0;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: stretch;
+
+        box-sizing: border-box;
+
+        position: relative;
+    }
+
+
+    /* ==========================================
+       TOP ROW
+       Logo | Quick Links | Customer Service
+    ========================================== */
+
+    .footer-container section:nth-child(1),
+    .footer-container section:nth-child(2),
+    .footer-container section:nth-child(3) {
+
+        width: 33.3333%;
+
+        padding: 0 20px 35px;
+
+        box-sizing: border-box;
+
+        border-bottom: 1px solid rgba(255, 255, 255, .15);
+    }
+
+
+    /* Vertical line 1 */
+
+    .footer-container section:nth-child(1) {
+
+        border-right: 1px solid rgba(255, 255, 255, .15);
+    }
+
+
+    /* Vertical line 2 */
+
+    .footer-container section:nth-child(2) {
+
+        border-right: 1px solid rgba(255, 255, 255, .15);
+    }
+
+
+    /* Last top column */
+
+    .footer-container section:nth-child(3) {
+
+        border-right: none;
+    }
+
+
+    /* ==========================================
+       LOGO
+    ========================================== */
+
+    .footer-container section:first-child {
+        text-align: left;
+    }
+
+    .footer-container section:first-child>img {
+
+        width: 150px;
+        height: auto;
+
+        margin-bottom: 15px;
+    }
+
+    .footer-container section:first-child p {
+
+        max-width: 270px;
+
+        color: #cfcfcf;
+
+        font-size: 14px;
+
+        line-height: 23px;
+
+        margin-bottom: 18px;
+    }
+
+
+    /* ==========================================
+       SOCIAL ICONS
+    ========================================== */
+
+    .footer-socials {
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 10px;
+    }
+
+    .footer-socials a {
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-socials img {
+
+        width: 32px;
+        height: 32px;
+    }
+
+
+    /* ==========================================
+       FOOTER HEADINGS
+    ========================================== */
+
+    .footer-container h3 {
+
+        font-size: 17px;
+
+        font-weight: 600;
+
+        color: #ffffff;
+
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+
+
+    /* ==========================================
+       QUICK LINKS
+    ========================================== */
+
+    .footer-container section:nth-child(2) {
+
+        text-align: center;
+    }
+
+    .footer-container section:nth-child(2) h3 {
+
+        text-align: center;
+    }
+
+    .footer-container section:nth-child(2) ul {
+
+        list-style: none;
+
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .footer-container section:nth-child(2) ul li {
+
+        margin-bottom: 10px;
+    }
+
+    .footer-container section:nth-child(2) ul li a {
+
+        color: #d4d4d4;
+
+        text-decoration: none;
+
+        font-size: 14px;
+    }
+
+
+    /* ==========================================
+       CUSTOMER SERVICE
+    ========================================== */
+
+    .footer-container section:nth-child(3) {
+
+        text-align: left;
+    }
+
+    .footer-container section:nth-child(3) ul {
+
+        list-style: none;
+
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-container section:nth-child(3) li {
+
+        color: #d4d4d4;
+
+        font-size: 14px;
+
+        margin-bottom: 10px;
+    }
+
+
+    /* ==========================================
+       BOTTOM ROW
+       Contact Us | Payment Methods
+    ========================================== */
+
+    .footer-container section:nth-child(4),
+    .footer-container section:nth-child(5) {
+
+        width: 50%;
+
+        padding: 35px 20px 35px;
+
+        box-sizing: border-box;
+
+        position: relative;
+    }
+
+
+    /* ==========================================
+       BOTTOM ROW CENTER VERTICAL LINE
+    ========================================== */
+
+    .footer-container section:nth-child(4) {
+
+        border-right: 1px solid rgba(255, 255, 255, .15);
+    }
+
+    .footer-container section:nth-child(5) {
+
+        border-right: none;
+    }
+
+
+    /* ==========================================
+       HORIZONTAL LINE
+       Full width — touches both footer borders
+    ========================================== */
+
+    .footer-container section:nth-child(4)::before,
+    .footer-container section:nth-child(5)::before {
+
+        content: "";
+
+        position: absolute;
+
+        top: 0;
+
+        height: 1px;
+
+        background: rgba(255, 255, 255, .15);
+    }
+
+    .footer-container section:nth-child(4)::before {
+
+        left: calc(-1 * 5.5vw);
+        right: 0;
+    }
+
+    .footer-container section:nth-child(5)::before {
+
+        left: 0;
+        right: calc(-1 * 5.5vw);
+    }
+
+
+    /* ==========================================
+       CONTACT
+    ========================================== */
+
+    .footer-container section:nth-child(4) {
+
+        text-align: left;
+    }
+
+    .footer-container section:nth-child(4) p {
+
+        color: #d4d4d4;
+
+        font-size: 13px;
+
+        line-height: 24px;
+
+        margin-bottom: 8px;
+    }
+
+
+    /* ==========================================
+       PAYMENT METHODS
+    ========================================== */
+
+    .footer-container section:nth-child(5) {
+
+        text-align: center;
+    }
+
+    .footer-container section:nth-child(5) h3 {
+
+        text-align: center;
+    }
+
+    .payment-icons {
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        flex-wrap: wrap;
+
+        gap: 8px;
+    }
+
+    .payment-icons img {
+
+        width: 50px;
+        height: auto;
+
+        padding: 4px;
+
+        background: #ffffff;
+
+        border-radius: 6px;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ==========================================
+       COPYRIGHT
+    ========================================== */
+
+    footer>p {
+
+        width: 100%;
+
+        margin: 0;
+
+        padding: 16px 10px;
+
+        box-sizing: border-box;
+
+        border-top: 1px solid rgba(255, 255, 255, .15);
+
+        text-align: center;
+
+        color: #bdbdbd;
+
+        font-size: 13px;
+
+        line-height: 20px;
+    }
+
+
 
 }
 
@@ -3289,5 +3958,909 @@ footer>p {
     #statistics article:nth-child(4) {
         border-left: 1px solid #3a3a3a;
     }
+
+
+
+    /*==========================================
+        Contact hero section
+===========================================*/
+
+
+    #contact-hero {
+        position: relative;
+        height: 320px;
+        padding: 45px 25px;
+        background-position: center;
+    }
+
+    #contact-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.60);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        z-index: 0;
+    }
+
+    #contact-hero .hero-content {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact-hero h2 {
+        font-size: 40px;
+    }
+
+    #contact-hero h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #contact-hero hr {
+        margin: 15px auto;
+    }
+
+    #contact-hero p {
+        font-size: 15px;
+        line-height: 23px;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+
+    /*==========================================
+        contact info section
+===========================================*/
+
+    #contact-info {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    #contact-info .section-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact-info .section-title h4 {
+        font-size: 20px;
+    }
+
+    #contact-info .section-title h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #contact-info .contact-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+        max-width: 360px;
+        margin: 35px auto 0;
+    }
+
+    #contact-info .contact-container article {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 10px;
+        text-align: center;
+        height: 230px;
+    }
+
+    #contact-info .contact-container article>img {
+        width: 55px;
+        height: 55px;
+    }
+
+    #contact-info .contact-container article h3 {
+        font-size: 15px;
+        margin: 10px 0 8px;
+    }
+
+    #contact-info .contact-container article p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    #contact-info .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    #contact-info .social-icons img {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    /*==========================================
+        business hrs - event - contact form section
+===========================================*/
+
+    #contact-details {
+        padding: 45px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .left-column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .business-card {
+        padding: 25px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .business-card h2,
+    .right-column h2 {
+        font-size: 22px;
+    }
+
+    .business-content {
+        display: block;
+    }
+
+    .business-content>img {
+        display: none;
+    }
+
+    .business-content table {
+        width: 100%;
+        margin: 15px 0 0;
+        font-size: 14px;
+    }
+
+    .business-content td {
+        padding: 9px 0;
+    }
+
+    .business-content td:first-child {
+        text-align: left;
+    }
+
+    .business-content td:last-child {
+        text-align: right;
+    }
+
+    .event-card {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .event-card img {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    .event-card h3 {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+
+    .event-card p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .event-card a {
+        font-size: 14px;
+    }
+
+    .right-column {
+        padding: 25px 20px;
+        box-sizing: border-box;
+    }
+
+    .right-column form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .form-row input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .right-column textarea {
+        width: 100%;
+        min-height: 130px;
+        box-sizing: border-box;
+    }
+
+    .contact-form-button {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+
+    /*==========================================
+        Cart hero section
+===========================================*/
+    #cart-hero {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    #cart-hero h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    #cart-hero .divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #cart-hero .divider hr {
+        width: 45px;
+    }
+
+    #cart-hero .divider img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #cart-hero p {
+        max-width: 340px;
+        margin: 18px auto 0;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    #cart-hero p br {
+        display: none;
+    }
+
+    /* ==========================================
+   SHOPPING CART
+========================================== */
+
+    #shopping-cart {
+        width: 100%;
+        margin: 0;
+
+        overflow: hidden;
+
+        border-radius: 15px;
+    }
+
+    #shopping-cart table {
+        width: 100%;
+
+        table-layout: fixed;
+
+        border-collapse: collapse;
+    }
+
+
+    /* Hide table heading */
+
+    #shopping-cart thead {
+        display: none;
+    }
+
+
+    /* ==========================================
+   CART BODY
+========================================== */
+
+    #shopping-cart tbody {
+        display: block;
+
+        width: 100%;
+    }
+
+
+    /* ==========================================
+   EACH CART ITEM
+========================================== */
+
+    #shopping-cart tr {
+        position: relative;
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        width: 100%;
+
+        padding: 15px 12px;
+
+        box-sizing: border-box;
+
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    #shopping-cart tr:last-child {
+        border-bottom: none;
+    }
+
+
+    /* Table cells */
+
+    #shopping-cart td {
+        border: none;
+
+        padding: 5px 0;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ==========================================
+   FOOD ITEM
+   Full width
+========================================== */
+
+    #shopping-cart td:first-child {
+        display: block;
+
+        width: 100%;
+
+        padding-right: 35px;
+    }
+
+    .cart-item {
+        display: flex;
+
+        align-items: center;
+
+        gap: 10px;
+
+        width: 100%;
+    }
+
+    .cart-item>img {
+        width: 60px;
+        height: 55px;
+
+        object-fit: cover;
+
+        flex-shrink: 0;
+    }
+
+    .cart-item h3 {
+        font-size: 15px;
+
+        line-height: 20px;
+
+        margin: 0 0 3px;
+    }
+
+    .cart-item p {
+        font-size: 11px;
+
+        line-height: 16px;
+
+        margin: 0;
+
+        max-width: 230px;
+    }
+
+
+    /* ==========================================
+   PRICE
+   30%
+========================================== */
+
+    #shopping-cart td:nth-child(2) {
+        display: block;
+
+        width: 30%;
+
+        margin-top: 8px;
+
+        font-size: 15px;
+
+        font-weight: 600;
+
+        text-align: left;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ==========================================
+   QUANTITY
+   40%
+========================================== */
+
+    #shopping-cart td:nth-child(3) {
+        display: flex;
+
+        width: 40%;
+
+        margin-top: 8px;
+
+        justify-content: center;
+
+        align-items: center;
+
+        box-sizing: border-box;
+    }
+
+    .quantity-box {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        width: 85px;
+        height: 32px;
+
+        margin: 0 auto;
+
+        border: 1px solid #dddddd;
+
+        border-radius: 8px;
+
+        overflow: hidden;
+
+        background: #ffffff;
+    }
+
+    .quantity-box button {
+        width: 27px;
+        height: 32px;
+
+        padding: 0;
+
+        border: none;
+
+        background: #ffffff;
+
+        font-size: 16px;
+
+        font-weight: 600;
+
+        color: #444;
+    }
+
+    .quantity-box button:first-child {
+        border-right: 1px solid #e5e5e5;
+    }
+
+    .quantity-box button:last-child {
+        border-left: 1px solid #e5e5e5;
+    }
+
+    .quantity-box span {
+        width: 31px;
+
+        font-size: 15px;
+
+        font-weight: 600;
+
+        text-align: center;
+    }
+
+
+    /* ==========================================
+   TOTAL
+   30%
+========================================== */
+
+    #shopping-cart td:nth-child(4) {
+        display: block;
+
+        width: 30%;
+
+        margin-top: 8px;
+
+        font-size: 15px;
+
+        font-weight: 600;
+
+        text-align: right;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ==========================================
+   DELETE BUTTON
+========================================== */
+
+    #shopping-cart td:nth-child(5) {
+        position: absolute;
+
+        top: 18px;
+
+        right: 12px;
+
+        width: auto;
+
+        padding: 0;
+
+        z-index: 2;
+    }
+
+    #shopping-cart td:nth-child(5) img {
+        width: 22px;
+        height: 22px;
+
+        cursor: pointer;
+    }
+
+    /* =========================================================
+   MOBILE FOOTER - 3 + 2 LAYOUT
+   767px and below
+   ========================================================= */
+
+    /* ==========================================
+       FOOTER
+    ========================================== */
+
+    footer {
+        width: 100%;
+        margin-top: 40px;
+        background: #111111;
+        color: #ffffff;
+    }
+
+
+    /* ==========================================
+       FOOTER CONTAINER
+    ========================================== */
+
+    .footer-container {
+        width: 100%;
+        margin: 0;
+        padding: 25px 15px 0;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: stretch;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ==========================================
+       TOP 3 COLUMNS
+       Logo | Quick Links | Customer Service
+    ========================================== */
+
+    .footer-container section:nth-child(1),
+    .footer-container section:nth-child(2),
+    .footer-container section:nth-child(3) {
+
+        width: 33.3333%;
+
+        padding: 0 10px 25px;
+
+        box-sizing: border-box;
+
+        border-bottom: 1px solid rgba(255, 255, 255, .15);
+    }
+
+
+    /* Vertical line between Logo and Quick Links */
+
+    .footer-container section:nth-child(1) {
+        border-right: 1px solid rgba(255, 255, 255, .15);
+    }
+
+
+    /* Vertical line between Quick Links and Customer Service */
+
+    .footer-container section:nth-child(2) {
+        border-right: 1px solid rgba(255, 255, 255, .15);
+    }
+
+
+    /* ==========================================
+       LOGO SECTION
+    ========================================== */
+
+    .footer-container section:first-child {
+        text-align: center;
+    }
+
+    .footer-container section:first-child>img {
+
+        width: 95px;
+        height: auto;
+
+        margin-bottom: 10px;
+    }
+
+    .footer-container section:first-child p {
+
+        max-width: 150px;
+
+        margin: 0 auto 12px;
+
+        color: #d4d4d4;
+
+        font-size: 10px;
+
+        line-height: 16px;
+    }
+
+
+    /* ==========================================
+       SOCIAL ICONS
+    ========================================== */
+
+    .footer-socials {
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 5px;
+    }
+
+    .footer-socials img {
+
+        width: 22px;
+        height: 22px;
+    }
+
+
+    /* ==========================================
+       FOOTER HEADINGS
+    ========================================== */
+
+    .footer-container h3 {
+
+        margin: 0 0 12px;
+
+        font-size: 13px;
+
+        line-height: 18px;
+
+        text-align: center;
+    }
+
+
+    /* ==========================================
+       QUICK LINKS
+    ========================================== */
+
+    .footer-container section:nth-child(2) {
+
+        text-align: center;
+    }
+
+    .footer-container section:nth-child(2) ul {
+
+        list-style: none;
+
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .footer-container section:nth-child(2) ul li {
+
+        margin-bottom: 6px;
+    }
+
+    .footer-container section:nth-child(2) ul li a {
+
+        color: #d4d4d4;
+
+        text-decoration: none;
+
+        font-size: 10px;
+
+        line-height: 15px;
+    }
+
+
+    /* ==========================================
+       CUSTOMER SERVICE
+    ========================================== */
+
+    .footer-container section:nth-child(3) {
+
+        text-align: center;
+    }
+
+    .footer-container section:nth-child(3) ul {
+
+        list-style: none;
+
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-container section:nth-child(3) li {
+
+        color: #d4d4d4;
+
+        font-size: 10px;
+
+        line-height: 15px;
+
+        margin-bottom: 6px;
+    }
+
+
+    /* ==========================================
+       BOTTOM 2 COLUMNS
+       Contact Us | Payment Methods
+    ========================================== */
+
+    .footer-container section:nth-child(4),
+    .footer-container section:nth-child(5) {
+
+        width: 50%;
+
+        padding: 25px 10px;
+
+        box-sizing: border-box;
+
+        position: relative;
+    }
+
+
+    /* ==========================================
+       HORIZONTAL DIVIDER
+       ========================================== */
+
+    .footer-container section:nth-child(4)::before,
+    .footer-container section:nth-child(5)::before {
+
+        content: "";
+
+        position: absolute;
+
+        top: 0;
+
+        height: 1px;
+
+        background: rgba(255, 255, 255, .15);
+    }
+
+    .footer-container section:nth-child(4)::before {
+
+        left: -15px;
+        right: 0;
+    }
+
+    .footer-container section:nth-child(5)::before {
+
+        left: 0;
+        right: -15px;
+    }
+
+
+    /* ==========================================
+       VERTICAL LINE BETWEEN BOTTOM 2
+    ========================================== */
+
+    .footer-container section:nth-child(4) {
+
+        border-right: 1px solid rgba(255, 255, 255, .15);
+
+        text-align: center;
+    }
+
+    .footer-container section:nth-child(5) {
+
+        border-right: none;
+
+        text-align: center;
+    }
+
+
+    /* ==========================================
+       CONTACT INFORMATION
+    ========================================== */
+
+    .footer-container section:nth-child(4) p {
+
+        color: #d4d4d4;
+
+        font-size: 9px;
+
+        line-height: 17px;
+
+        margin: 0 0 6px;
+    }
+
+
+    /* ==========================================
+       PAYMENT METHODS
+    ========================================== */
+
+    .footer-container section:nth-child(5) h3 {
+
+        text-align: center;
+    }
+
+    .payment-icons {
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        flex-wrap: wrap;
+
+        gap: 5px;
+    }
+
+    .payment-icons img {
+
+        width: 38px;
+        height: auto;
+
+        padding: 3px;
+
+        background: #ffffff;
+
+        border-radius: 5px;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ==========================================
+       COPYRIGHT
+    ========================================== */
+
+    footer>p {
+
+        width: 100%;
+
+        margin: 0;
+
+        padding: 12px 8px;
+
+        border-top: 1px solid rgba(255, 255, 255, .15);
+
+        text-align: center;
+
+        color: #bdbdbd;
+
+        font-size: 10px;
+
+        line-height: 16px;
+    }
+
 
 }
