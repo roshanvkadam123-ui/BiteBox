@@ -938,6 +938,7 @@ nav a.active {
     gap: 8px;
     font-size: 14px;
     font-weight: 600;
+    transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 #menu-items article button img {
@@ -2014,7 +2015,7 @@ Style the order summary section #order-summary hr {
 }
 
 #cart-actions a:hover {
-    background: #fafafa;
+    background: #e80909;
 }
 
 #cart-actions button {
@@ -2034,7 +2035,7 @@ Style the order summary section #order-summary hr {
 }
 
 #cart-actions button:hover {
-    background: #ffeaea;
+    background: #d80a0a;
 }
 
 
@@ -4863,4 +4864,95 @@ footer>p {
     }
 
 
+}
+
+
+#menu-items .bite:hover {
+   background-color: rgb(255 107 107 / 1);
+   color: white;
+}
+
+#menu-items .bite:active {
+   background-color: #e63e3e;
+   border-color: #e63e3e;
+   color: white;
+   transform: scale(0.97);
+   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#menu-items .bite:focus-visible {
+   outline: 3px solid rgba(255, 77, 77, 0.4);
+   outline-offset: 2px;
+}
+
+.empty-cart h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(241, 160, 8);
+}
+
+.empty-cart p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: crimson;
+}
+
+/* menu serach */
+
+.menu-search {
+    width: 360px;
+    height: 48px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Search Input */
+.menu-search input {
+    flex: 1;
+    height: 100%;
+    padding: 0 18px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: transparent;
+}
+
+/* Placeholder */
+.menu-search input::placeholder {
+    color: #777;
+}
+
+/* Search Button */
+.menu-search button {
+    width: 52px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #ff4b2b;
+    cursor: pointer;
+}
+
+.menu-search button:hover{
+    background-color: #ac1f06 ;
+
+}
+
+/* Search Icon */
+.menu-search button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }

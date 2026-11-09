@@ -66,7 +66,7 @@
           <tbody>
             <!-- Item 1 -->
 
-            <tr>
+            <!-- <tr>
               <td>
                 <div class="cart-item">
                   <img
@@ -101,11 +101,11 @@
                   <img src="assets/icons/delete.jpg" alt="Delete" width="25" />
                 </a>
               </td>
-            </tr>
+            </tr> -->
 
             <!-- Item 2 -->
 
-            <tr>
+            <!-- <tr>
               <td>
                 <div class="cart-item">
                   <img
@@ -140,11 +140,11 @@
                   <img src="assets/icons/delete.jpg" alt="Delete" width="25" />
                 </a>
               </td>
-            </tr>
+            </tr> -->
 
             <!-- Item 3 -->
 
-            <tr>
+            <!-- <tr>
               <td>
                 <div class="cart-item">
                   <img
@@ -179,7 +179,7 @@
                   <img src="assets/icons/delete.jpg" alt="Delete" width="25" />
                 </a>
               </td>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
       </section>
@@ -187,14 +187,16 @@
       <aside id="order-summary">
         <h2>Order Summary</h2>
 
-        <p><span>Subtotal (3 Items)</span> <span>₹826.00</span></p>
+        <p><span id="subtotal-label">Subtotal (0 Items)</span> <span id="subtotal-amount">₹00.00</span></p>
 
-        <p><span>Delivery Charges</span> <span>₹40.00</span></p>
+        <p><span>Delivery Charges</span> <span id="delivery-amount">₹00.00</span></p>
 
-        <p><span>Packaging Charges</span> <span>₹20.00</span></p>
+        <p><span>Packaging Charges</span> <span id="packaging-amount">₹00.00</span></p>
+
+        <p><span>Discount Charges</span> <span id="discount-amount">₹00.00</span></p>
 
         <hr />
-        <h3><span>Total Amount</span> <span>₹886.00</span></h3>
+        <h3><span>Total Amount</span> <span id="total-amount">₹00.00</span></h3>
 
         <button type="button">Proceed to Checkout</button>
         <p>
@@ -226,6 +228,7 @@
         <img
           src="./assets/icons/delete.jpg"
           alt="clear cart"
+          id="clear-cart"
           width="18"
           height="18"
         />
@@ -292,7 +295,7 @@
           <li><a href="menu.html">Menu</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="cart.html"></a>Cart</li>
+          <li><a href="cart.html">Cart</a></li>
         </ul>
       </section>
 
@@ -337,5 +340,6 @@
       <hr />
       <p>© 2026 BiteBox. All Rights Reserved.</p>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
