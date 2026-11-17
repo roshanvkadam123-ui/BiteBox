@@ -17,7 +17,7 @@
       />
 
       <nav>
-        <a href="index.html">Home</a>|
+        <a href="index.html" class="active">Home</a>|
 
         <a href="menu.html">Menu</a>|
 
@@ -25,7 +25,8 @@
 
         <a href="about.html">About us</a>|
 
-        <a href="cart.html">
+        <a href="cart.html" class="cart-icon">
+          <span class="cart-wrapper">
           <img
             src="./assets/images/cart logo.png"
             alt="Cart Icon"
@@ -33,7 +34,15 @@
             height="25"
             class="cart-icon"
           />
+          <span id="cart-count">0</span>
+          </span>
         </a>
+      |
+      <button type="button" id="theme-toggle" class="theme-toggle">
+        <span class="theme-icon">☀</span>
+        <span class="theme-text"> DAY MODE</span>
+      </button>
+
       </nav>
     </header>
     <hr>
